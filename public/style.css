@@ -1,0 +1,68 @@
+body{
+  padding-top:80px;
+  word-wrap:break-word;
+}
+img{
+  height: 200px;
+}
+
+#icon{
+  height: 100px;
+  width: 100px;
+}
+
+h1 {
+	display: inline;
+	position: relative;
+	font: 80px Helvetica, Sans-Serif;
+	letter-spacing: -5px;
+	color: rgba(0,0,255,0.5);
+}
+
+h1:after {
+  content: "Favorite Gif Generator";
+  position: fixed;
+  left: 13px;
+  top: 220px;
+  color: rgba(255,0,0,0.5);
+}
+img{
+  box-shadow: -41px 36px 32px rgba(0,0,0,0.33);
+}
+
+.heading{
+  margin: 0px 0px 0px -5px;
+  display: inline;
+	position: relative;
+	font: 80px Helvetica, Sans-Serif;
+	letter-spacing: -5px;
+	color: rgba(0,0,255,0.5);
+
+}
+
+.heading:after {
+      content: "Profile Page";
+      position:fixed;
+      left: 9px;
+      top: 88px;
+      color: rgba(255,0,0,0.5);
+}
+
+.sign{
+  margin: 0px 0px 0px -5px;
+  display: inline;
+	position: relative;
+	font: 80px Helvetica, Sans-Serif;
+	letter-spacing: -5px;
+	color: rgba(0,0,255,0.5);
+}
+.sign:after {
+      content: "Login";
+      position:fixed;
+      left: 91px;
+      top: 88px;
+      color: rgba(255,0,0,0.5);
+}
+ul {
+  list-style-type: none;
+}
